@@ -7,20 +7,33 @@ To write a program to find the LU Decomposition of a matrix.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
+## Algorithm for program 1
 
 ```
 
-(i)1.Import the numpy library for numerical operations and the scipy.linalg library for 
+(i)1.Import the numpy library for numerical operations and the scipy.linalg 
+   library for 
    linear  algebra functions.
-   2. Use the input() function to get a string representation of matrix A from the user,and then use eval() to convert it into a numpy array.
-   3.Use the lu() function from scipy.linalg to perform LU decomposition on matrix A, which     returns  the permutation matrix P, lower triangular matrix L, and upper triangular matrix U.
-   4.Extract the L and U matrices from the LU decomposition result and store them in separate variables.
+   2. Use the input() function to get a string representation of matrix A 
+   from the user,
+   and then use eval() to convert it into a numpy array.
+   3.Use the lu() function from scipy.linalg to perform LU decomposition on 
+   matrix A,which     returns  the permutation matrix P, lower triangular 
+   matrix L, and upper triangular matrix U.
+   4.Extract the L and U matrices from the LU decomposition result and store
+    them in separate variables.
    5.Print the L and U matrices using the print() function.
+
+   ```
+
+## Algorithm for program 2
+
+```
 
 (ii)1. Define the package as scipy.linalg import lu.
     2.Get input from user and print L and U matrix by 'print' .
-    3.Define a package as "from scipy.linalg import lu_factor, lu_solve" and create the variable as 'X' include the package in that variable.
+    3.Define a package as "from scipy.linalg import lu_factor, lu_solve" 
+    and create the variable as 'X' include the package in that variable.
     4.print the variable 'X
 
 ```
